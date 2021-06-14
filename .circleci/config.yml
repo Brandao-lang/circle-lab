@@ -7,5 +7,3 @@ workflows:
   npm-tests:
     jobs:
       - node/test: npm run test
-          version: 13.11.0
-      
