@@ -1,8 +1,5 @@
-const getGreeting = require('./project');
-
-function addition(num1, num2) {
-  return num1 + num2
-}
+// const getGreeting = require('./project');
+const { getGreeting, addition } = require('./project')
 
 
 test('can create a basic greeting', () => {
